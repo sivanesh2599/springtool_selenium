@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-29T16:37:16Z" name="Default suite" finished-at="2022-10-29T16:38:01Z" duration-ms="45687">
+    <groups>
+    </groups>
+    <test started-at="2022-10-29T16:37:16Z" name="Default test" finished-at="2022-10-29T16:38:01Z" duration-ms="45687">
+      <class name="testng.Testng">
+        <test-method is-config="true" signature="bt()[pri:0, instance:testng.Testng@2e48362c]" started-at="2022-10-29T22:07:16Z" name="bt" finished-at="2022-10-29T22:07:30Z" duration-ms="14549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="login()[pri:0, instance:testng.Testng@2e48362c]" started-at="2022-10-29T22:07:30Z" name="login" finished-at="2022-10-29T22:07:34Z" duration-ms="3355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteuser()[pri:1, instance:testng.Testng@2e48362c]" started-at="2022-10-29T22:07:34Z" name="deleteuser" finished-at="2022-10-29T22:07:46Z" duration-ms="12594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="links()[pri:1, instance:testng.Testng@2e48362c]" started-at="2022-10-29T22:07:46Z" name="links" finished-at="2022-10-29T22:07:50Z" duration-ms="3664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links -->
+        <test-method signature="logout()[pri:2, instance:testng.Testng@2e48362c]" started-at="2022-10-29T22:07:50Z" name="logout" finished-at="2022-10-29T22:08:00Z" duration-ms="9653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:testng.Testng@2e48362c]" started-at="2022-10-29T22:08:00Z" name="quitbrowser" finished-at="2022-10-29T22:08:01Z" duration-ms="1655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- testng.Testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

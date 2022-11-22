@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-07T16:06:49Z" name="Suite" finished-at="2022-11-07T16:07:33Z" duration-ms="44664">
+    <groups>
+    </groups>
+    <test started-at="2022-11-07T16:06:49Z" name="Test2" finished-at="2022-11-07T16:07:33Z" duration-ms="43828">
+      <class name="maven.parallel_class">
+        <test-method is-config="true" signature="tc1(java.lang.String)[pri:0, instance:maven.parallel_class@59a008ba]" started-at="2022-11-07T21:36:49Z" name="tc1" finished-at="2022-11-07T21:37:15Z" duration-ms="26312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc2()[pri:0, instance:maven.parallel_class@59a008ba]" started-at="2022-11-07T21:37:16Z" name="tc2" finished-at="2022-11-07T21:37:33Z" duration-ms="17032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- maven.parallel_class -->
+    </test> <!-- Test2 -->
+    <test started-at="2022-11-07T16:06:49Z" name="Test1" finished-at="2022-11-07T16:07:33Z" duration-ms="44664">
+      <class name="maven.parallel_class">
+        <test-method is-config="true" signature="tc1(java.lang.String)[pri:0, instance:maven.parallel_class@2e48362c]" started-at="2022-11-07T21:36:49Z" name="tc1" finished-at="2022-11-07T21:37:25Z" duration-ms="35719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc2()[pri:0, instance:maven.parallel_class@2e48362c]" started-at="2022-11-07T21:37:25Z" name="tc2" finished-at="2022-11-07T21:37:33Z" duration-ms="8932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- maven.parallel_class -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

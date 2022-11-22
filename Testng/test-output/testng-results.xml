@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-20T06:37:08Z" name="Default suite" finished-at="2022-10-20T06:37:40Z" duration-ms="32913">
+    <groups>
+    </groups>
+    <test started-at="2022-10-20T06:37:08Z" name="Default test" finished-at="2022-10-20T06:37:40Z" duration-ms="32913">
+      <class name="testng.Testng">
+        <test-method is-config="true" signature="bt()[pri:0, instance:testng.Testng@481ba2cf]" started-at="2022-10-20T12:07:08Z" name="bt" finished-at="2022-10-20T12:07:18Z" duration-ms="10085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="login()[pri:0, instance:testng.Testng@481ba2cf]" started-at="2022-10-20T12:07:18Z" name="login" finished-at="2022-10-20T12:07:21Z" duration-ms="3407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteuser()[pri:1, instance:testng.Testng@481ba2cf]" started-at="2022-10-20T12:07:21Z" name="deleteuser" finished-at="2022-10-20T12:07:34Z" duration-ms="12886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="logout()[pri:2, instance:testng.Testng@481ba2cf]" started-at="2022-10-20T12:07:34Z" name="logout" finished-at="2022-10-20T12:07:40Z" duration-ms="6476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testng.Testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
